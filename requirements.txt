@@ -1,0 +1,25 @@
+# Main backend + AI pipeline (Python 3.12). The face service has its own
+# requirements in face-service/requirements.txt (separate virtualenv).
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy[asyncio]>=2.0.35
+aiosqlite>=0.20
+pydantic>=2.9
+pydantic-settings>=2.5
+python-jose[cryptography]>=3.3
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+python-multipart>=0.0.9
+python-dotenv>=1.0
+websockets>=12
+aiofiles>=24.1
+Pillow>=10.4
+httpx>=0.27
+numpy>=1.26
+opencv-python-headless>=4.10
+# AI: on a machine with an NVIDIA GPU, install the CUDA build of torch/torchvision
+# first (see https://pytorch.org/get-started/locally/), then run this file.
+torch>=2.0
+torchvision>=0.15
+ultralytics>=8.3
+PyYAML>=6

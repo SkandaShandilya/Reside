@@ -1,0 +1,55 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+
+# Local databases and generated application data
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+backend/storage/
+uploads/
+logs/
+*.log
+tmp/
+temp/
+
+# Datasets, cached models, and model checkpoints/weights
+_model_cache/
+datasets/
+dataset/
+training_data/
+training-data/
+runs/
+*.pt
+*.pth
+*.onnx
+*.weights
+*.ckpt
+*.safetensors
+
+# OS/editor temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*

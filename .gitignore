@@ -33,7 +33,8 @@ tmp/
 temp/
 
 # Datasets, cached models, and model checkpoints/weights
-_model_cache/
+/_model_cache/*
+!/_model_cache/.gitkeep
 datasets/
 dataset/
 training_data/
